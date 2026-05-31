@@ -64,6 +64,11 @@ export const MEMBERS: Member[] = [
     url: "https://madballistic.xyz",
     name: "madballistic",
     buttonUrl: "https://madballistic.xyz/88x31.png"
+  },
+  {
+    url: "https://assumi.ng",
+    name: "catcatcat",
+    buttonUrl: "https://assumi.ng/assets/88x31/assuming.gif"
   }
 ];
 
