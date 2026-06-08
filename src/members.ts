@@ -26,7 +26,7 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://akryst.moe/88x31/akryst.gif",
   },
   {
-    url: "https://f1sh.v.recipes",
+    url: "https://moli.codes",
     name: "f1sh",
     buttonUrl: "https://raw.githubusercontent.com/NPSummers/NPSummers/refs/heads/main/doesnt_want_to_host_his_own_gif_moli.gif",
   },
