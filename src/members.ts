@@ -6,11 +6,6 @@ export interface Member {
 
 export const MEMBERS: Member[] = [
   {
-    url: "https://venqoi.lol",
-    name: "nolan",
-    buttonUrl: "https://cdn.venqoi.lol/Untitled.png",
-  },
-  {
     url: "https://schuh.wtf",
     name: "schuh",
     buttonUrl: "https://cdn.venqoi.lol/schuh.gif",
@@ -31,20 +26,10 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://raw.githubusercontent.com/NPSummers/NPSummers/refs/heads/main/doesnt_want_to_host_his_own_gif_moli.gif",
   },
   {
-    url: "https://milproject.xyz",
-    name: "mil",
-    buttonUrl: "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/catgirlkiss.gif",
-  },
-  {
       url: "https://plxne.com",
       name: "Ranger",
       buttonUrl: "https://files.plxne.com/raw/nRH5kX.gif",
   }, 
-  {
-    url: "https://kebabmario.dev",
-    name: "kebabmario/myrixx",
-    buttonUrl: "https://kebabmario.dev/assets/IMG_5520.gif",
-  },
   {
     url: "https://kie.ac",
     name: "kie.ac",
@@ -61,15 +46,15 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://cdn.brookerslyn.space/Screenshot%202026-05-10%20222237(1)(1).png"
   },
   {
-    url: "https://madballistic.xyz",
-    name: "madballistic",
-    buttonUrl: "https://madballistic.xyz/88x31.png"
-  },
-  {
     url: "https://assumi.ng",
     name: "catcatcat",
     buttonUrl: "https://assumi.ng/assets/88x31/assuming.gif"
-  }
+  },
+  {
+    url: "https://c.stupid.cat",
+    name: "clove",
+    buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.gif"
+  },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
