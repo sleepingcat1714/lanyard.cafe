@@ -101,6 +101,7 @@ export const MEMBERS: Member[] = [
     name: "ethone",
     buttonUrl: "https://ethone.eu/blinkie.gif",
     discordId: "1485363780685795430",
+  },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
