@@ -81,6 +81,7 @@ export const MEMBERS: Member[] = [
   {
     url: "https://chimera-realm.foo",
     name: "Chimera",
+    buttonUrl: "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/Untitled.gif",
     discordId: "736465046317563915",
   },
   {
@@ -93,7 +94,7 @@ export const MEMBERS: Member[] = [
     url: "https://buddywinte.xyz",
     name: "buddywinte",
     buttonUrl: "https://buddywinte.xyz/button.gif",
-    discordId: "137429661834936510",
+    discordId: "1357429661834936510",
   },
 ];
 
