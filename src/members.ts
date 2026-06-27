@@ -79,10 +79,16 @@ export const MEMBERS: Member[] = [
     discordId: "1464890289922641993",
   },
   {
+    url: "https://interverti.fr/",
+    name: "interverti",
+    buttonUrl: "https://cdn.interverti.fr/raw/interverti.fr.gif",
+    discordId: "674329017339346955",
+  },
+  {
     url: "https://buddywinte.xyz",
     name: "buddywinte",
     buttonUrl: "https://buddywinte.xyz/button.gif",
-    discordId: "1357429661834936510",
+    discordId: "137429661834936510",
   },
 ];
 
