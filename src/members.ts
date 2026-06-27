@@ -89,7 +89,7 @@ export const MEMBERS: Member[] = [
     name: "buddywinte",
     buttonUrl: "https://buddywinte.xyz/button.gif",
     discordId: "137429661834936510",
-},
+  },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
