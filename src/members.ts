@@ -66,15 +66,34 @@ export const MEMBERS: Member[] = [
     discordId: "1471598614676766826",
   },
   {
+    url: "https://milproject.xyz",
+    name: "mae",
+    buttonUrl:
+      "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/mae.gif",
+    discordId: "1125787079654260777",
+  },
+  {
     url: "https://c.stupid.cat",
     name: "clove",
-    buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.gif",
+    buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.png",
     discordId: "1464890289922641993",
   },
   {
     url: "https://chimera-realm.foo",
     name: "Chimera",
     discordId: "736465046317563915",
+  },
+  {
+    url: "https://interverti.fr/",
+    name: "interverti",
+    buttonUrl: "https://cdn.interverti.fr/raw/interverti.fr.gif",
+    discordId: "674329017339346955",
+  },
+  {
+    url: "https://buddywinte.xyz",
+    name: "buddywinte",
+    buttonUrl: "https://buddywinte.xyz/button.gif",
+    discordId: "137429661834936510",
   },
 ];
 
