@@ -102,11 +102,12 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://ethone.eu/blinkie.gif",
     discordId: "1485363780685795430",
   },
-    {
+  {
   url: "https://bloxforlife.xyz",
   name: "BloxForLife",
+  buttonUrl: "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/bloxforlife.gif",
   discordId: "1075335630353080340",
-},
+  },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
