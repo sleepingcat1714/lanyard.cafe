@@ -89,8 +89,16 @@ function getSite(req: Request) {
   return req.headers.get("Referer") ?? "";
 }
 
+
 function randomMember() {
-  return MEMBERS[Math.floor(Math.random() * MEMBERS.length)]!;
+  const max = Math.floor(2 ** 32 / MEMBERS.length) * MEMBERS.length;
+  let value: number;
+  const array = new Uint32Array(1);
+  do {
+    crypto.getRandomValues(array);
+    value = array[0];
+  } while (value >= max);
+  return MEMBERS[value % MEMBERS.length]!;
 }
 
 function embedScript() {
