@@ -97,10 +97,10 @@ export const MEMBERS: Member[] = [
     discordId: "1357429661834936510",
   },
   {
-    url: "https://ethone.eu",
-    name: "ethone",
-    buttonUrl: "https://ethone.eu/blinkie.gif",
-    discordId: "1485363780685795430",
+  url: "https://0c6a.site",
+  name: "animosity",
+  buttonUrl: "https://raw.githubusercontent.com/0c6a/0c6a.github.io/main/src/videos/♥.gif",
+  discordId: "1491137614525370589",                 
   },
   {
   url: "https://bloxforlife.com",
@@ -108,12 +108,6 @@ export const MEMBERS: Member[] = [
   buttonUrl: "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/bloxforlife.gif",
   discordId: "1075335630353080340",
   },
-  {
-  url: "https://0c6a.site",
-  name: "animosity",
-  buttonUrl: "https://raw.githubusercontent.com/0c6a/0c6a.github.io/main/src/videos/♥.gif",
-  discordId: "1491137614525370589",                 
-},
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
