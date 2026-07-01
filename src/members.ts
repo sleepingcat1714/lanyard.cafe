@@ -103,7 +103,7 @@ export const MEMBERS: Member[] = [
     discordId: "1485363780685795430",
   },
   {
-  url: "https://bloxforlife.xyz",
+  url: "https://bloxforlife.com",
   name: "BloxForLife",
   buttonUrl: "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/bloxforlife.gif",
   discordId: "1075335630353080340",
